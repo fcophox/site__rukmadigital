@@ -1,0 +1,140 @@
+    /* =============================== */
+    /* ======== $SECTION    ======== */
+    /* =============================== */
+
+    .header {
+        height: 100vh;
+
+        .centrado {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            -webkit-transform: translate(-50%, -50%);
+
+            a {
+                .avatar {
+                    width: 110px;
+                    height: auto;
+                    margin-bottom: 2rem;
+                    margin-right: 1rem;
+                }
+            }
+
+            .box-presentacion {
+                .saludo {
+                    color: $txt-c;
+                    font-size: 1.1rem;
+                    margin: 0px;
+                    letter-spacing: 0.1rem;
+                }
+
+                .rol {
+                    font-family: $rale;
+                    color: $txt-b;
+                    font-size: 2.8rem;
+                    margin: 0.4rem 0px 0.8rem 0px;
+                    font-weight: bold;
+                }
+
+                .ubicacion {
+                    color: $txt-c;
+                    font-size: 1rem;
+
+                    .icono {
+                        margin-right: 0.5rem;
+                        color: $primario;
+                        font-size: 1em;
+                    }
+                }
+            }
+        }
+    }
+
+    nav {
+        max-width: 100% !important;
+
+        .container-full {
+            width: 100% !important;
+
+            .logotipo-menu {
+                max-width: 60px !important;
+                height: auto;
+                float: right;
+            }
+        }
+
+    }
+
+
+    /* =============================== */
+    /* ======== $SECCIONES    ======== */
+    /* =============================== */
+    .certificaciones {
+        background-color: $color-fon-b;
+    }
+
+    .img-spacio {
+        width: 100%;
+        max-width: 100%;
+    }
+
+
+
+    section {
+
+        footer,
+        article {
+
+
+            .container {
+                max-width: 830px;
+                padding-top: 9rem;
+                padding-bottom: 9rem;
+                //border: 1px solid green;
+
+                .row {
+                    .box {
+                        margin-bottom: 4rem;
+
+                        .titulo {
+                            font-weight: bold;
+                            font-size: 2.2rem;
+                            color: $txt-a;
+                            letter-spacing: 0.1rem;
+                        }
+
+                        .subtitulo {
+                            font-weight: bold;
+                            font-size: 1.4rem;
+                            color: $txt-c;
+                            margin-bottom: 3rem;
+                            letter-spacing: 0.1rem;
+                        }
+
+                        .parrafo {
+                            font-family: $muli;
+                            line-height: 1.9em;
+                            color: $txt-c;
+                            margin-top: 3rem;
+                            margin-bottom: 3rem;
+                        }
+                    }
+
+                    .titulo-articulo {
+                        color: $txt-c;
+                        font-size: 0.8rem;
+                        letter-spacing: 0.4rem;
+                        text-transform: uppercase;
+                    }
+
+                    .year {
+                        color: $txt-c;
+                        font-size: 0.8rem;
+                        letter-spacing: 0.2rem;
+                        text-transform: uppercase;
+                    }
+                }
+            }
+        }
+    }

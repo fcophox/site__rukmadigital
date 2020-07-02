@@ -1,0 +1,75 @@
+/* =================================== */
+/* ======== $SECCION : MEDIUM ======== */
+/* =================================== */
+
+.articulos {
+    .container {
+        padding-bottom: 3rem !important;
+        padding-top: 3rem !important;
+    }
+
+    .container-full {
+        width: 100% !important;
+        padding-top: 0px !important;
+        padding-bottom: 0px !important;
+    }
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 1px 1px;
+    grid-template-areas: "image-post-medium info-post-medium";
+    height: 400px;
+}
+
+.image-post-medium {
+    grid-area: image-post-medium;
+    background: $txt-a;
+    background-image: url('../images/medium/medium-01.jpg');
+    background-size: 100%;
+    position: relative;
+
+    .btn-next {
+        background-color: white;
+        z-index: 1;
+        text-align: center;
+        width: 140px;
+        height: 100px;
+        position: absolute;
+        bottom: 0px !important;
+        right: 300px;
+        font-size: 20px;
+        color: $txt-c;
+        padding-top: 30px;
+    }
+}
+
+.info-post-medium {
+    grid-area: info-post-medium;
+    background: $color-fon-d;
+    padding: 4rem;
+
+    .year_post-medium {
+        color: $txt-c;
+        font-size: 0.8rem;
+        letter-spacing: 0.2rem;
+        text-transform: uppercase;
+        margin-bottom: 2rem;
+    }
+
+    .titulo_post-medium {
+        color: $txt-a;
+        font-size: 1.1rem;
+        letter-spacing: 0rem;
+    }
+
+    .etiqueta_post-medium {
+        margin: 1rem 0px 2rem 0px;
+        color: $txt-c;
+        font-size: 0.8rem;
+        letter-spacing: 0.1rem;
+        margin-bottom: 5rem;
+    }
+}

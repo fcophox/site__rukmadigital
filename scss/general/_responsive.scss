@@ -1,0 +1,132 @@
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+    body {
+        //background-color: red;
+    }
+}
+
+/* Portrait tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+    body {
+        // background-color: yellow;
+    }
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+    body {
+        //background-color: green;
+
+        .grid figure {
+            max-width: 50%;
+
+        }
+    }
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+    body {
+
+        // background-color: peru;
+        .grid figure {
+            max-width: 100%;
+
+        }
+    }
+}
+
+@media (max-width: 634px) {
+    body {
+        //background-color: orange;
+
+        .container {
+            .centrado {
+                width: 80%;
+                padding: 0px;
+                margin: 0px;
+            }
+
+            .avatar {
+                margin-top: 80px;
+                width: 80px !important;
+            }
+        }
+
+        .container-fluid {
+            //border: 1px solid yellow;
+            margin: 0px !important;
+            padding: 0px !important;
+        }
+
+        .saludo {
+            font-size: 0.9rem !important
+        }
+
+        .rol {
+            font-size: 2.1rem !important;
+        }
+
+
+        //artículos
+        .titulo-articulo {
+            //border: 1px solid green;
+            font-size: 0.7em !important;
+        }
+
+        .titulo {
+            font-size: 1.8em !important;
+            //border: 1px solid red;
+        }
+
+        .subtitulo {
+            //border: 1px solid orange;
+            font-size: 1em !important;
+        }
+
+        .articulos {
+
+            .grid-container {
+                display: flex;
+
+                //border: 1px solid red;
+                .image-post-medium {
+                    //border: 1px solid green;
+                }
+            }
+        }
+
+        .certificaciones {
+            .parrafo {
+                display: none;
+            }
+        }
+
+        .card-avatar {
+            .container {
+                padding: 1em 0px;
+
+                .info-footer {
+                    a {
+                        display: block;
+                        padding: 1.5em 0em;
+                    }
+                }
+            }
+
+            .copyright {
+                .avatar {
+                    width: 100px !important;
+                }
+            }
+        }
+    }
+}
+
+/* Landscape phones and smaller */
+@media (max-width: 480px) {
+    body {
+        //background-color: blue;
+
+    }
+}

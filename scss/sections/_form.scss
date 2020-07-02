@@ -1,0 +1,23 @@
+/* =============================== */
+/* ======== $FORM    ======== */
+/* =============================== */
+
+#contactForm {
+
+    input,
+    textarea {
+        margin-bottom: 40px;
+        border-radius: 0px;
+        background-color: $color-fon-a;
+        border-top: 0px solid $color-fon-b;
+        border-left: 0px solid $color-fon-b;
+        border-right: 0px solid $color-fon-b;
+        border-bottom: 0px solid $color-fon-b;
+
+        &:focus {
+            -webkit-box-shadow: none;
+            box-shadow: none;
+            border-right: 1px solid $color-fon-c;
+        }
+    }
+}

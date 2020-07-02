@@ -1,0 +1,48 @@
+/* =============================== */
+/* ======== $FOOTER    ======== */
+/* =============================== */
+
+.card-avatar {
+    background-color: $color-fon-d;
+
+    .container {
+
+        .info-footer {
+
+            a {
+                margin: 0px 2em;
+                letter-spacing: 0.3em;
+                color: $txt-c;
+                text-transform: uppercase;
+                font-size: 0.7em;
+
+                &:hover {
+                    color: $primario;
+                }
+            }
+        }
+    }
+
+    .titulo {
+        display: none;
+    }
+
+    .listado {
+        li {
+            padding-bottom: 0.8rem;
+            letter-spacing: 0.1rem;
+        }
+    }
+}
+
+.copyright {
+    padding: 1rem 1rem;
+    width: 100%;
+    text-align: center;
+
+    p {
+        font-size: 0.7rem;
+        color: $primario;
+        letter-spacing: 0.2rem;
+    }
+}
