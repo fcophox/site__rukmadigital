@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <g id="link" transform="translate(-5769 -1054)">
+    <g id="icono" transform="translate(5769 1054)">
+      <rect id="Rectángulo_2" data-name="Rectángulo 2" width="40" height="40" rx="4" fill="#697fdd" opacity="0.124"/>
+    </g>
+    <g id="_002-linkedin" data-name="002-linkedin" transform="translate(5781 1066)">
+      <path id="Trazado_15" data-name="Trazado 15" d="M18.713,18.405h0V12.6c0-2.839-.611-5.026-3.931-5.026a3.446,3.446,0,0,0-3.1,1.706h-.046V7.839H8.489V18.4h3.277V13.173c0-1.377.261-2.709,1.967-2.709,1.681,0,1.706,1.572,1.706,2.8v5.144Z" transform="translate(-2.891 -2.58)" fill="#697fdd"/>
+      <path id="Trazado_16" data-name="Trazado 16" d="M.4,7.977H3.677V18.542H.4Z" transform="translate(-0.135 -2.717)" fill="#697fdd"/>
+      <path id="Trazado_17" data-name="Trazado 17" d="M1.9,0A1.909,1.909,0,1,0,3.8,1.9,1.9,1.9,0,0,0,1.9,0Z" fill="#697fdd"/>
+    </g>
+  </g>
+</svg>

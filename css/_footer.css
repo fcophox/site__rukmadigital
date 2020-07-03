@@ -1,0 +1,130 @@
+.footer {
+  padding: 0;
+  position: fixed;
+  bottom: 50px;
+  left: 50px;
+  right: 50px;
+  width: auto;
+  height: 1px;
+  z-index: 99; }
+
+.footer .copy {
+  position: absolute;
+  left: 0;
+  bottom: 0; }
+
+.footer p,
+.footer .copy {
+  margin: 2px 0 0;
+  font-size: 14px;
+  line-height: 2; }
+
+.footer .soc-box {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  float: right;
+  width: 24px; }
+
+.footer .soc a {
+  display: block;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #bbb;
+  transition: all 0.7s cubic-bezier(0.165, 0.85, 0.45, 1);
+  -moz-transition: all 0.7s cubic-bezier(0.165, 0.85, 0.45, 1);
+  -webkit-transition: all 0.7s cubic-bezier(0.165, 0.85, 0.45, 1);
+  -o-transition: all 0.7s cubic-bezier(0.165, 0.85, 0.45, 1); }
+
+.footer .soc a:last-child {
+  margin-bottom: 0; }
+
+.footer .soc a .ion {
+  color: #bbb; }
+
+.footer .soc a:hover .ion {
+  color: #4bffa5;
+  opacity: 1; }
+
+.follow-label {
+  padding-right: 75px;
+  position: absolute;
+  bottom: 100%;
+  right: 0;
+  color: #bbb;
+  font-size: 14px;
+  line-height: 24px;
+  height: 24px;
+  white-space: nowrap;
+  -webkit-transform-origin: 100% 0;
+  -ms-transform-origin: 100% 0;
+  transform-origin: 100% 0;
+  text-align: right;
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg); }
+
+.follow-label:after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: 0;
+  width: 50px;
+  height: 1px;
+  background: #fff; }
+
+@media (max-width: 1199px) {
+  .footer .copy {
+    display: none; }
+  .footer .follow-label {
+    display: none; }
+  .footer {
+    padding: 50px 0;
+    position: relative;
+    top: 0;
+    bottom: auto;
+    left: 0;
+    right: auto;
+    height: auto; }
+  .footer .copy {
+    margin-bottom: 10px;
+    display: block;
+    position: relative;
+    text-align: center; }
+  .footer .soc-box {
+    position: relative;
+    right: auto;
+    left: 0;
+    top: 0;
+    bottom: auto;
+    float: none;
+    width: auto;
+    text-align: center; }
+  .footer .soc a {
+    margin: 0 10px;
+    display: inline-block; }
+  .home .footer {
+    padding: 0;
+    position: fixed;
+    bottom: 50px;
+    top: auto;
+    left: 50px;
+    right: 50px;
+    height: 1px; }
+  .home .footer .copy {
+    display: none; }
+  .home .footer .soc-box {
+    position: absolute;
+    right: 0;
+    left: auto;
+    top: auto;
+    bottom: 0;
+    float: right;
+    width: 20px; }
+  .home .footer .soc a {
+    margin: 10px 0 0;
+    display: block; }
+  .home .footer .soc a .icon {
+    font-size: 17px; } }

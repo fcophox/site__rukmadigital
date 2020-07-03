@@ -1,11 +1,11 @@
 .footer {
     padding: 0;
     position: fixed;
-    bottom: 20px;
+    bottom: 50px;
     left: 50px;
     right: 50px;
     width: auto;
-    height: 0px;
+    height: 1px;
     z-index: 99
 }
 
@@ -18,8 +18,7 @@
 .footer p,
 .footer .copy {
     margin: 2px 0 0;
-    font-size: 11px;
-    letter-spacing: 0.08rem;
+    font-size: 14px;
     line-height: 2
 }
 

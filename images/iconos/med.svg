@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <g id="med" transform="translate(-5818 -1054)">
+    <g id="icono" transform="translate(5818 1054)">
+      <rect id="Rectángulo_2" data-name="Rectángulo 2" width="40" height="40" rx="4" fill="#697fdd" opacity="0.124"/>
+    </g>
+    <path id="_003-medio" data-name="003-medio" d="M14.562,3.972l1.263-1.208V2.5H11.451L8.333,10.26,4.786,2.5H.2v.264L1.675,4.54a.619.619,0,0,1,.2.516v6.978a.8.8,0,0,1-.213.692L0,14.741V15H4.711v-.264L3.05,12.727a.82.82,0,0,1-.229-.692V6l4.136,9.007h.481L10.993,6v7.175c0,.189,0,.228-.124.352L9.59,14.763v.265H15.8v-.264l-1.233-1.207a.367.367,0,0,1-.141-.352V4.325a.365.365,0,0,1,.14-.352Z" transform="translate(5830 1065.5)" fill="#697fdd"/>
+  </g>
+</svg>
